@@ -1,0 +1,44 @@
+
+
+#clockface {
+	border: 2px solid black;
+	height: 90vh;
+	width: 90vh;
+	border-radius: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	vertical-align: bottom;
+}
+
+#secondhand, #minutehand, #hourhand {
+	position: absolute;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	transform-origin: bottom;
+}
+
+
+#secondhand {
+	background-color: black;
+	width: 1vh;
+	height: 45vh;
+}
+
+#minutehand {
+	background-color: blue;
+	width: 1.5vh;
+	height: 30vh;
+}
+
+#hourhand {
+	background-color: mistyrose;
+	width: 2vh;
+	height: 20vh;
+}
+
